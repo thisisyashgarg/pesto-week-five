@@ -1,0 +1,18 @@
+let arr = [1,23,45,NaN];
+console.log(arr.indexOf(NaN));
+//index of cannot find the index of nan
+//also it has linear time complexity
+
+//SET
+let set = new Set();
+set.add(NaN);
+set.add('yash');
+set.add('garg');
+
+console.log(set.has('ndsknc'));
+set.delete('garg');
+console.log(set.has('garg'));
+
+console.log(set.entries());
+
+
